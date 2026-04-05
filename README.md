@@ -3,7 +3,7 @@ Basic configuration to run sshd in initrd-systemd in NixOS, optionally including
 
 #  One-time imperative setup steps
 
-Run these on rocinante itself before the initrd modules are fully functional. Order matters: SSH host key first, Clevis enrollment second, Tailscale state file last (optional).
+Run these on the system before the initrd modules are fully functional. Order matters: SSH host key first, Clevis enrollment second, Tailscale state file last (optional).
 
 ---
 
